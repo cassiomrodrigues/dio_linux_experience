@@ -18,7 +18,7 @@ apt install unzip -y
 echo "Downloading and deploying the application on Apache directory"
 
 wget -P /tmp https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
-unzip main.zip -d /var/www/html
+unzip /tmp/main.zip -d /var/www/html
 
 rm -rf main.zip
 
